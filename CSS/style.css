@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    font-family: 'Caprasimo', italic;
+}
+h1{
+    font-size: 46px;
+    color:lightgrey;
+    
+}
+
+#GIFresults{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#GIFresults img{
+    margin: 5px;
+    max-height: 200px;
+
+}
