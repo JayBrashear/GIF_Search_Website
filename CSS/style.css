@@ -25,6 +25,16 @@ a:hover{
     color: darkred;
     background-color: antiquewhite;
 }
+
+.NavBar{
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+}
+.searchBar{
+    margin: 10px;
+    padding: 2px;
+}
 #GIFresults{
     display: flex;
     justify-content: space-around;
