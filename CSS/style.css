@@ -1,26 +1,103 @@
-body{
-    font-family: 'Caprasimo', italic;
+/*@media (max-width: 320px) {   
+    body{
+    font-family: 'Caprasimo', italic;    
+}
+
+header{
+    background-color: white;
 }
 h1{
-    font-size: 46px;        
+    font-size: 46px;      
 }
 
 a{
-    font-size: 20px;
+    font-size: 23px;
+    margin: 5px;
+    padding: 2px;
 }
+
 a:link{
     color: darkred;
 }
+
 a:visited{
     color: black;
 }
+
 a:hover{
     color: darkred 
 }
+
 #submit {
     background-color: darkred;
     color: antiquewhite;
 }
+
+#submit:hover{
+    color: darkred;
+    background-color: antiquewhite;
+}
+.NavBar{
+    display:grid;
+    justify-content:center;
+    flex-wrap:wrap;    
+}
+
+.searchBar{
+    margin: 10px;
+    padding: 2px;    
+}
+
+#GIFresults{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#GIFresults img{
+    margin: 5px;
+    max-height: 200px;
+    border-color: black;
+    border: 2px;
+} 
+}
+*/
+
+
+body{
+    font-family: 'Caprasimo', italic;    
+}
+
+header{
+    background-color: white;
+}
+h1{
+    font-size: 46px;      
+}
+
+a{
+    font-size: 23px;
+    margin: 5px;
+    padding: 2px;
+}
+
+a:link{
+    color: darkred;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: darkred 
+}
+
+#submit {
+    background-color: darkred;
+    color: antiquewhite;
+}
+
 #submit:hover{
     color: darkred;
     background-color: antiquewhite;
@@ -29,17 +106,20 @@ a:hover{
 .NavBar{
     display: flex;
     justify-content:flex-end;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
+
 .searchBar{
     margin: 10px;
-    padding: 2px;
+    padding: 2px;    
 }
+
 #GIFresults{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 #GIFresults img{
     margin: 5px;
     max-height: 200px;

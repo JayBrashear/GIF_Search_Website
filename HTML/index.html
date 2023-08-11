@@ -13,22 +13,18 @@
     <header class = "header">
         <H1 id="Home">Get GIPHY'd</H1>
         <nav class = "NavBar">            
-            <span class="NavLinks"> 
-                <a href="#Home">Home</a>
-            </span>
-            <span class="NavLinks"> 
-                <a href="#About">About</a>
-            </span>
-            
-                <a href="#Contact">Contact Us</a>
-            </span>
-        </nav>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Contact">Contact Us</a>           
+        </nav>    
+        <div class = "searchBar">
+            <input id = "search" type="search"/>
+            <button id = "submit" class = "button">Search</button>
+        </div>
     </header>
-    <div class = "searchBar">
-        <input id = "search" type="search"/>
-        <button id = "submit" class = "button">Search</button>
-    </div>
+    <div>
     <section id = "GIFresults"> </section>
+    </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="../JavaScript/main.js"></script>
 </body>
