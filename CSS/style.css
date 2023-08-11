@@ -1,13 +1,30 @@
 body{
-    background-color: black;
     font-family: 'Caprasimo', italic;
 }
 h1{
-    font-size: 46px;
-    color:lightgrey;
-    
+    font-size: 46px;        
 }
 
+a{
+    font-size: 20px;
+}
+a:link{
+    color: darkred;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: darkred 
+}
+#submit {
+    background-color: darkred;
+    color: antiquewhite;
+}
+#submit:hover{
+    color: darkred;
+    background-color: antiquewhite;
+}
 #GIFresults{
     display: flex;
     justify-content: space-around;
@@ -16,5 +33,6 @@ h1{
 #GIFresults img{
     margin: 5px;
     max-height: 200px;
-
+    border-color: black;
+    border: 2px;
 }
