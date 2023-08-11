@@ -65,11 +65,15 @@ a:hover{
 
 
 body{
-    font-family: 'Caprasimo', italic;    
+    font-family: 'Caprasimo', italic; 
+    background-color: antiquewhite;   
 }
 
 header{
-    background-color: white;
+    background-color: antiquewhite;
+    margin: 0px;
+    border: 0px;
+    
 }
 h1{
     font-size: 46px;      
