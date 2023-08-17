@@ -1,6 +1,6 @@
 $(document)
     .ready(()=>{
-     // set API call upon submit button click 
+     // set API call upon submit button click New Note
         $("#submit").click(function(){   
             
             //clear previous results 
